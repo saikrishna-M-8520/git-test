@@ -3,14 +3,14 @@ pipeline {
     stages {
         stage('One') {
                 steps {
-                        echo 'Hi, this is Zulaikha from edureka'
+                        echo 'Hi, this is Siddhard from Chennai'
 			
                 }
         }
 	    stage('Two'){
 		    
 		steps {
-			input('Do you want to proceed?')
+			echo 'You are in second stage of declarative pipeline'
         }
 	    }
         stage('Three') {
